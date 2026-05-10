@@ -10,7 +10,7 @@ import numpy as np
 # =====================================================
 
 st.set_page_config(
-    page_title="Patent Analytics Platform",
+    page_title="Patent Intelligence Platform",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -294,7 +294,7 @@ footer{
 # TITLE
 # =====================================================
 
-st.title("🌍 Global Patent Analytics Platform")
+st.title("🌍 Global Patent Intelligence Platform")
 
 st.markdown("""
 <div style="
@@ -774,5 +774,5 @@ with tab3:
 st.markdown("---")
 
 st.caption(
-    "Patent Analytics Platform • Powered by PatentsView"
+    "Patent Intelligence Platform • Powered by PatentsView"
 )
