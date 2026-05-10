@@ -1,0 +1,47 @@
+-- =========================
+-- PATENTS TABLE
+-- =========================
+CREATE TABLE patents (
+    patent_id TEXT PRIMARY KEY,
+    title TEXT,
+    abstract TEXT,
+    filing_date DATE,
+    year INTEGER
+);
+
+-- =========================
+-- INVENTORS TABLE
+-- =========================
+CREATE TABLE inventors (
+    inventor_id TEXT,
+    patent_id TEXT,
+    name TEXT,
+    FOREIGN KEY (patent_id) REFERENCES patents(patent_id)
+);
+
+-- =========================
+-- COMPANIES TABLE
+-- =========================
+CREATE TABLE companies (
+    company_id TEXT,
+    patent_id TEXT,
+    name TEXT,
+    FOREIGN KEY (patent_id) REFERENCES patents(patent_id)
+);
+
+-- =========================
+-- RELATIONSHIPS TABLE
+-- =========================
+CREATE TABLE relationships (
+    inventor_id TEXT,
+    company_id TEXT,
+    patent_id TEXT,
+    FOREIGN KEY (patent_id) REFERENCES patents(patent_id)
+);
+
+-- =========================
+-- INDEXES (BONUS)
+-- =========================
+CREATE INDEX idx_patent_year ON patents(year);
+CREATE INDEX idx_inventor_name ON inventors(name);
+CREATE INDEX idx_company_name ON companies(name);

@@ -1,0 +1,43 @@
+{
+    "summary": {
+        "total_patents": 9454161,
+        "latest_year": 2025,
+        "latest_value": 378741,
+        "peak_year": 2019
+    },
+    "top_inventor": {
+        "name": "Shunpei Yamazaki",
+        "patent_count": 6786
+    },
+    "top_company": {
+        "name": "SAMSUNG ELECTRONICS CO., LTD.",
+        "patent_count": 172446
+    },
+    "recent_trends": [
+        {
+            "year": 2021,
+            "total_patents": 363829,
+            "growth_rate": -6.847137019550809
+        },
+        {
+            "year": 2022,
+            "total_patents": 360417,
+            "growth_rate": -0.9378031987554603
+        },
+        {
+            "year": 2023,
+            "total_patents": 350093,
+            "growth_rate": -2.8644597785343118
+        },
+        {
+            "year": 2024,
+            "total_patents": 373852,
+            "growth_rate": 6.7864824489492825
+        },
+        {
+            "year": 2025,
+            "total_patents": 378741,
+            "growth_rate": 1.307736751441757
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+*.tsv
+patents.db
+clean_patents.csv
+clean_relationships.csv
+clean_inventors.csv
+clean_locations.csv
+clean_companies.csv
+relationships.csv
+.venv/
+venv/
+*.zip
